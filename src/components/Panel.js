@@ -80,6 +80,10 @@ const PanelInput = styled.input`
   font-family: inherit;
   height: 60px; // Increased height
   cursor: none;
+  user-select: none;
+  &::placeholder {
+    user-select: none;
+  }
 
   &:focus {
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -108,6 +112,7 @@ const PanelButton = styled.button`
   outline: none;
   font-family: inherit;
   cursor: none;
+  user-select: none;
 
   &:hover {
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.7), 0 0 30px rgba(255, 255, 255, 0.7);
@@ -131,6 +136,7 @@ const PanelButton = styled.button`
   span {
     position: relative;
     z-index: 1;
+    user-select: none;
   }
 
   @media (max-width: 600px) {
