@@ -72,7 +72,7 @@ const PanelInput = styled.input`
   border: none;
   border-radius: 20px; // Increased border radius for more curve
   font-size: 17px;
-  font-weight: 550;
+  font-weight: 500;
   color: #ffffff;
   outline: none;
   transition: all 0.1s ease;
@@ -104,7 +104,7 @@ const PanelButton = styled.button`
   border: none;
   border-radius: 20px;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
